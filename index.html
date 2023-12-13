@@ -79,6 +79,7 @@
 												<li class="c-list__item">выцветания</li>
 											</ul>
 										</div>
+										<span class="main__made">Произведено в России</span>
 									</div>
 								</div>
 								<div class="swiper-slide">
@@ -101,6 +102,10 @@
 												<li class="c-list__item">выцветания</li>
 											</ul>
 										</div>
+										<div class="main__block main__block--bottom-left">
+											<h3 class="main__title">Есть модели с&nbsp;вертушками</h3>
+										</div>
+										<span class="main__made">Произведено в России</span>
 									</div>
 								</div>
 								<div class="swiper-slide">
@@ -108,7 +113,7 @@
 										<picture class="main__img">
 											<img src="img/catalog-04.png" alt="Image">
 										</picture>
-										<h2 class="main__heading">ЗВ4.3.03</h2>
+										<h2 class="main__heading main__heading--sm">ЗВ4.3.03</h2>
 										<div class="main__block main__block--left">
 											<h3 class="main__title">Универсальная защелка</h3>
 											<p class="main__description">для любой стороны открывания замка</p>
@@ -123,6 +128,7 @@
 												<li class="c-list__item">выцветания</li>
 											</ul>
 										</div>
+										<span class="main__made">Произведено в России</span>
 									</div>
 								</div>
 							</div>
@@ -235,23 +241,44 @@
 					<h2 class="catalog__heading">Каталог продукции</h2>
 					<div class="catalog__wrapper">
 						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-01.png" alt="Image">
-							</picture>
+							<div class="catalog-card__slider">
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-01.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-02.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-04.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="catalog-card__body">
 								<h3 class="catalog-card__title">ЗВ4.3.03 <span>с вертушкой</span></h3>
 								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
+									<label for="color-checkbox-01" class="color-checkbox catalog-card__color" data-id="0">
+										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox" checked>
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-02" class="color-checkbox catalog-card__color" data-id="1">
+										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
+										<span class="color-checkbox__tooltip">Оранжевый</span>
 									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-03" class="color-checkbox catalog-card__color" data-id="2">
+										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
+										<span class="color-checkbox__tooltip">Красный</span>
 									</label>
 								</div>
 								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
@@ -259,23 +286,44 @@
 							</div>
 						</article>
 						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
+							<div class="catalog-card__slider">
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-01.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-02.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-04.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="catalog-card__body">
 								<h3 class="catalog-card__title">ЗВ-7</h3>
 								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
+									<label for="color-checkbox-11" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-11" class="color-checkbox__input" name="color-checkbox-1" checked>
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-12" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-12" class="color-checkbox__input" name="color-checkbox-1">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-13" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-13" class="color-checkbox__input" name="color-checkbox-1">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
+										<span class="color-checkbox__tooltip">Красный</span>
 									</label>
 								</div>
 								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
@@ -283,303 +331,93 @@
 							</div>
 						</article>
 						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
+							<div class="catalog-card__slider">
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-01.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-02.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-04.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ-7 <span>с вертушкой</span></h3>
+								<h3 class="catalog-card__title">ЗВ-7</h3>
 								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
+									<label for="color-checkbox-21" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-21" class="color-checkbox__input" name="color-checkbox-2" checked>
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-22" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-22" class="color-checkbox__input" name="color-checkbox-2">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-23" class="color-checkbox catalog-card__color">
+										<input type="radio" id="color-checkbox-23" class="color-checkbox__input" name="color-checkbox-2">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
+										<span class="color-checkbox__tooltip">Красный</span>
 									</label>
 								</div>
 								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
+								<a href="#" class="catalog-card__btn btn btn--sm btn--border catalog-modal-btn" data-id="catalog-modal">Подробнее</a>
 							</div>
 						</article>
 						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-01.png" alt="Image">
-							</picture>
+							<div class="catalog-card__slider">
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-01.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-02.png" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="catalog-card__img">
+												<img src="img/catalog-04.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="catalog-card__body">
 								<h3 class="catalog-card__title">ЗВ4.3.03 <span>с вертушкой</span></h3>
 								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
+									<label for="color-checkbox-31" class="color-checkbox catalog-card__color" data-id="0">
+										<input type="radio" id="color-checkbox-31" class="color-checkbox__input" name="color-checkbox-3" checked>
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
+										<span class="color-checkbox__tooltip">Серебристый</span>
 									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-32" class="color-checkbox catalog-card__color" data-id="1">
+										<input type="radio" id="color-checkbox-32" class="color-checkbox__input" name="color-checkbox-3">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
+										<span class="color-checkbox__tooltip">Оранжевый</span>
 									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
+									<label for="color-checkbox-33" class="color-checkbox catalog-card__color" data-id="2">
+										<input type="radio" id="color-checkbox-33" class="color-checkbox__input" name="color-checkbox-3">
 										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
+										<span class="color-checkbox__tooltip">Красный</span>
 									</label>
 								</div>
 								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-01.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ4.3.03</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ-7 <span>с вертушкой</span></h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ-7 <span>с вертушкой</span></h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-01.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ4.3.03</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-01.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ4.3.03</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ-7 <span>с вертушкой</span></h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-02.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">ЗВ-7 <span>с вертушкой</span></h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-03.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">PC100</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-									<label for="color-checkbox-04" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-04" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #FFF 0deg, rgba(255, 255, 255, 0.62) 51.68213903903961deg, #FFF 117.13097333908081deg, rgba(255, 255, 255, 0.87) 175.67078590393066deg, rgba(255, 255, 255, 0.60) 226.29756689071655deg, rgba(255, 255, 255, 0.83) 287.90621280670166deg, #FFF 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-03.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">PC80</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-									<label for="color-checkbox-04" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-04" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #FFF 0deg, rgba(255, 255, 255, 0.62) 51.68213903903961deg, #FFF 117.13097333908081deg, rgba(255, 255, 255, 0.87) 175.67078590393066deg, rgba(255, 255, 255, 0.60) 226.29756689071655deg, rgba(255, 255, 255, 0.83) 287.90621280670166deg, #FFF 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
-							</div>
-						</article>
-						<article class="catalog-card catalog__item">
-							<picture class="catalog-card__img">
-								<img src="img/catalog-03.png" alt="Image">
-							</picture>
-							<div class="catalog-card__body">
-								<h3 class="catalog-card__title">PC60</h3>
-								<div class="catalog-card__colors">
-									<label for="color-checkbox-01" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-01" class="color-checkbox__input" name="color-checkbox-0" checked>
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #898989 0deg, rgba(137, 137, 137, 0.62) 51.68213903903961deg, #898989 117.13097333908081deg, rgba(137, 137, 137, 0.87) 175.67078590393066deg, rgba(137, 137, 137, 0.60) 226.29756689071655deg, rgba(137, 137, 137, 0.83) 287.90621280670166deg, #898989 360deg);"></span>
-									</label>
-									<label for="color-checkbox-02" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-02" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #956C02 0deg, rgba(149, 108, 2, 0.62) 51.68213903903961deg, #956C02 117.13097333908081deg, rgba(149, 108, 2, 0.87) 175.67078590393066deg, rgba(149, 108, 2, 0.60) 226.29756689071655deg, rgba(149, 108, 2, 0.83) 287.90621280670166deg, #956C02 360deg);"></span>
-									</label>
-									<label for="color-checkbox-03" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-03" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #720606 0deg, rgba(114, 6, 6, 0.62) 51.68213903903961deg, #720606 117.13097333908081deg, rgba(114, 6, 6, 0.87) 175.67078590393066deg, rgba(114, 6, 6, 0.60) 226.29756689071655deg, rgba(114, 6, 6, 0.83) 287.90621280670166deg, #720606 360deg);"></span>
-									</label>
-									<label for="color-checkbox-04" class="color-checkbox catalog-card__color">
-										<input type="radio" id="color-checkbox-04" class="color-checkbox__input" name="color-checkbox-0">
-										<span class="color-checkbox__icon" style="--color: conic-gradient(from 229deg at 50% 50%, #FFF 0deg, rgba(255, 255, 255, 0.62) 51.68213903903961deg, #FFF 117.13097333908081deg, rgba(255, 255, 255, 0.87) 175.67078590393066deg, rgba(255, 255, 255, 0.60) 226.29756689071655deg, rgba(255, 255, 255, 0.83) 287.90621280670166deg, #FFF 360deg);"></span>
-									</label>
-								</div>
-								<p class="catalog-card__description">Замок врезной цилиндрового типа. Рекомендуемое применение — деревянные двери толщиной 40–50мм в квартирах и общественных зданиях. Допустима установка на более толстое полотно при условии смены цилиндрового механизма. Защелка универсальная. Врезная часть имеет антикоррозийное покрытие. Ручки покрыты термокраской, обеспечивающей защиту от влажности, солнца, других погодных факторов и предотвращающей выцветание.</p>
-								<a href="#" class="catalog-card__btn btn btn--sm btn--border">Подробнее</a>
+								<a href="#" class="catalog-card__btn btn btn--sm btn--border catalog-modal-btn" data-id="catalog-modal">Подробнее</a>
 							</div>
 						</article>
 					</div>
